@@ -12,7 +12,7 @@ export const Hero = () => {
           </h1>
           <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 max-w-lg">
             A passionate developer focused on creating beautiful and functional
-            web experiences.
+            web experiences....
           </p>
           <div className="mt-8 flex flex-wrap gap-4 justify-center md:justify-start">
             <button
