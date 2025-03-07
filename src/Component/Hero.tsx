@@ -1,4 +1,5 @@
 import profileImage from '../assets/1741101565563.jpeg';
+import resume from "../assets/thisura(cv).pdf";
 export const Hero = () => {
   return (
     <section className="w-full bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 pt-24 pb-16">
@@ -26,14 +27,17 @@ export const Hero = () => {
               Contact Me
             </button>
             <button
-              onClick={() =>
-                document.getElementById("projects")?.scrollIntoView({
-                  behavior: "smooth",
-                })
-              }
               className="px-6 py-3 bg-white dark:bg-gray-800 text-indigo-600 dark:text-indigo-400 font-medium rounded-lg border border-indigo-600 dark:border-indigo-400 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+              onClick={() =>{
+                const link = document.createElement("a");
+                link.href = resume;
+                link.download = "Thisura_Liyanage_Resume.pdf";
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
             >
-              View Projects
+              Download Resume
             </button>
           </div>
         </div>
