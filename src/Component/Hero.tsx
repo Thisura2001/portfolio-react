@@ -37,7 +37,7 @@ export const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="md:w-1/2 flex justify-center md:justify-end">
+        <div className="md:w-1/2 flex justify-center md:justify-center">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-lg">
             <img
                 src={profileImage}
