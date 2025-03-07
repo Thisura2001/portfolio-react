@@ -11,24 +11,26 @@ export const About = () => {
                 </div>
                 <div className="max-w-3xl mx-auto">
                     <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                        Hello! I'm a passionate web developer with a strong foundation in
-                        modern technologies. With a background in [Your Background], I bring
-                        a unique perspective to every project I work on.
+                        Hello! I'm <strong>Thisura Liyanage</strong>, a passionate web and software developer with a
+                        strong foundation in modern technologies. Currently, I'm pursuing a <strong>Graduate Diploma in
+                        Software Engineering (GDSE)</strong> at the <strong>Institute of Java Software
+                        Engineering</strong> and a <strong>BSc (Hons) in Computer Science</strong> at the <strong>University
+                        of Bolton</strong>.
                     </p>
                     <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                        My journey in technology began [Your Story]. Since then, I've been
-                        continuously learning and improving my skills to deliver
-                        high-quality solutions that meet both user needs and business goals.
+                        My journey in technology began with a deep curiosity about how software works. Since then, I've
+                        been continuously learning and improving my skills in full-stack development, cloud computing,
+                        and emerging technologies to build high-quality, scalable applications that meet both user needs
+                        and business goals.
                     </p>
                     <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                        When I'm not coding, you can find me [Your Hobbies/Interests]. These
-                        activities help me maintain a creative mindset and bring fresh
-                        perspectives to my work.
+                        When I'm not coding, you can find me exploring new technologies, playing watching netflix or enjoying a casual drink with friends. These activities help me
+                        maintain a creative mindset and bring fresh perspectives to my work.
                     </p>
                     <div className="mt-10 flex justify-center gap-6">
                         <div className="text-center">
                             <div className="text-3xl font-bold text-indigo-600 dark:text-indigo-400">
-                                3+
+                                2+
                             </div>
                             <div className="text-gray-600 dark:text-gray-300">
                                 Years Experience
@@ -36,7 +38,7 @@ export const About = () => {
                         </div>
                         <div className="text-center">
                             <div className="text-3xl font-bold text-indigo-600 dark:text-indigo-400">
-                                20+
+                                10+
                             </div>
                             <div className="text-gray-600 dark:text-gray-300">
                                 Projects Completed
