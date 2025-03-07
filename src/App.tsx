@@ -2,6 +2,7 @@ import { Hero } from "./Component/Hero";
 import { NavBar } from "./Component/NavBar"
 import { useEffect, useState } from "react";
 import {About} from "./Component/About.tsx";
+import {TechStack} from "./Component/TechStack.tsx";
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -23,6 +24,7 @@ function App() {
       <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Hero/>
       <About/>
+      <TechStack/>
     </div>
   )
 }
