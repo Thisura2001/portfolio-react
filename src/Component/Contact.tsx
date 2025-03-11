@@ -99,7 +99,7 @@ export const Contact = () => {
                                     </svg>
                                     <div>
                                         <p className="font-medium">Phone</p>
-                                        <p className="text-indigo-200">+94 788695889</p>
+                                        <p className="text-indigo-200">+94 78 869 5889</p>
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@ export const Contact = () => {
                                 <p className="font-medium mb-4">Follow me</p>
                                 <div className="flex space-x-4">
                                     <a
-                                        href="#"
+                                        href="https://www.linkedin.com/in/thisura-liyanage-b78b852aa/"
                                         className="text-white hover:text-indigo-200 transition-colors"
                                     >
                                         <svg
@@ -145,7 +145,7 @@ export const Contact = () => {
                                         </svg>
                                     </a>
                                     <a
-                                        href="#"
+                                        href="https://www.facebook.com/share/18WWtSuoZX/?mibextid=wwXIfr"
                                         className="text-white hover:text-indigo-200 transition-colors"
                                     >
                                         <svg
@@ -163,7 +163,7 @@ export const Contact = () => {
                                         </svg>
                                     </a>
                                     <a
-                                        href="#"
+                                        href="https://github.com/Thisura2001"
                                         className="text-white hover:text-indigo-200 transition-colors"
                                     >
                                         <svg
