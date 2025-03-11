@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import {About} from "./Component/About.tsx";
 import {TechStack} from "./Component/TechStack.tsx";
 import {Projects} from "./Component/Project.tsx";
+import {Contact} from "./Component/Contact.tsx";
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -22,11 +23,12 @@ function App() {
   }, [darkMode]);
   return (
     <div className="bg-gray-50 dark:bg-gray-900 min-h-screen">
-      <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
-      <Hero/>
-      <About/>
-      <TechStack/>
-      <Projects/>
+        <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
+        <Hero/>
+        <About/>
+        <TechStack/>
+        <Projects/>
+        <Contact/>
     </div>
   )
 }
