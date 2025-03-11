@@ -18,7 +18,7 @@ export const Projects = ()=>{
             title:"Crop Management System",
             description:" This is an advanced ,web based platform designed to manage and monitor\n" +
                 " agricultural activities efficiently",
-            image:        "https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            image: "https://plus.unsplash.com/premium_photo-1664304252735-94a13543db2d?q=80&w=1995&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             tags : ["React","Node js","mysql","Prisma"],
             link:" https://github.com/Thisura2001/GreenShadow-React.git",
             category:"web"
@@ -40,7 +40,7 @@ export const Projects = ()=>{
                 " Prisma ORM and Express.js, ensuring efficient database management and\n" +
                 " seamless API integration. Implemented authentication, state management, and\n" +
                 " RESTful APIs to enhance functionality.",
-            image:"https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            image:"https://images.unsplash.com/photos-a-wooden-table-topped-with-plates-of-food-w8cM5oUVyHk",
             tags : ["Typescript","React native","mysql","Prisma"],
             link:"https://github.com/Thisura2001/Recipe_app_native.git",
             category:"mobile"
@@ -52,7 +52,7 @@ export const Projects = ()=>{
                 " Prisma ORM and Express.js, ensuring efficient database management and\n" +
                 " seamless API integration. Implemented authentication, state management, and\n" +
                 " RESTful APIs to enhance functionality.",
-            image:"https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+            image:"https://images.unsplash.com/a-stack-of-pancakes-with-blueberries-and-syrup-g4jSyttFc08",
             tags : ["Javascript","spring boot","mysql","hibernate"],
             link:" https://github.com/Thisura2001/thogakade_frontend.git",
             category:"mobile"

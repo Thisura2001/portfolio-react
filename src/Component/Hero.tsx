@@ -2,7 +2,7 @@ import profileImage from '../assets/1741101565563.jpeg';
 import resume from "../assets/thisura(cv).pdf";
 export const Hero = () => {
   return (
-    <section className="w-full bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 pt-24 pb-16">
+    <section id={"home"} className="w-full bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 pt-24 pb-16">
       <div className="container mx-auto px-4 md:px-6 pt-16 flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
