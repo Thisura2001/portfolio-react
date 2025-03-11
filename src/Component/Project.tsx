@@ -18,7 +18,7 @@ export const Projects = ()=>{
             title:"Crop Management System",
             description:" This is an advanced ,web based platform designed to manage and monitor\n" +
                 " agricultural activities efficiently",
-            image: "https://plus.unsplash.com/premium_photo-1664304252735-94a13543db2d?q=80&w=1995&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            image: "../assets/1741101565563.jpeg",
             tags : ["React","Node js","mysql","Prisma"],
             link:" https://github.com/Thisura2001/GreenShadow-React.git",
             category:"web"
@@ -53,7 +53,7 @@ export const Projects = ()=>{
                 " seamless API integration. Implemented authentication, state management, and\n" +
                 " RESTful APIs to enhance functionality.",
             image:"https://images.unsplash.com/a-stack-of-pancakes-with-blueberries-and-syrup-g4jSyttFc08",
-            tags : ["Javascript","spring boot","mysql","hibernate"],
+            tags :  ["Typescript","React native","mysql","Prisma"],
             link:" https://github.com/Thisura2001/thogakade_frontend.git",
             category:"mobile"
         },
@@ -147,8 +147,12 @@ export const Projects = ()=>{
                                     src={project.image}
                                     alt={project.title}
                                     className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+                                    onError={(e) => {
+                                        e.currentTarget.src = 'path/to/fallback/image.jpg';
+                                    }}
                                 />
-                                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
+                                <div
+                                    className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"/>
                             </div>
                             <div className="p-6">
                                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">

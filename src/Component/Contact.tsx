@@ -8,13 +8,27 @@ export const Contact = () => {
         message:""
     })
 
-    function handleChange() {
+    const handleChange = (
+        e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+    ) => {
+        const { name, value } = e.target;
+        setFormData((prev) => ({
+            ...prev,
+            [name]: value,
+        }));
+    };
 
-    }
-
-    function handleSubmit() {
-
-    }
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        console.log("Form submitted:", formData);
+        alert("Thank you for your message! I will get back to you soon.");
+        setFormData({
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+        });
+    };
 
     return(
         <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-900 w-full">
