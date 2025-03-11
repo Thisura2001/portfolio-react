@@ -107,3 +107,4 @@ export const NavBar = ({ darkMode, setDarkMode }: NavBarProps) => {
     </nav>
   );
 };
+

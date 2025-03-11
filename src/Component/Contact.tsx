@@ -59,7 +59,7 @@ export const Contact = () => {
                                     </svg>
                                     <div>
                                         <p className="font-medium">Location</p>
-                                        <p className="text-indigo-200">Matugama, Srilanka</p>
+                                        <p className="text-indigo-200">Matugama, Sri Lanka</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start">
