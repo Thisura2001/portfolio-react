@@ -18,7 +18,7 @@ export const Projects = ()=>{
             title:"Crop Management System",
             description:" This is an advanced ,web based platform designed to manage and monitor\n" +
                 " agricultural activities efficiently",
-            image: "../assets/1741101565563.jpeg",
+            image: "https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
             tags : ["React","Node js","mysql","Prisma"],
             link:" https://github.com/Thisura2001/GreenShadow-React.git",
             category:"web"
@@ -40,7 +40,7 @@ export const Projects = ()=>{
                 " Prisma ORM and Express.js, ensuring efficient database management and\n" +
                 " seamless API integration. Implemented authentication, state management, and\n" +
                 " RESTful APIs to enhance functionality.",
-            image:"https://images.unsplash.com/photos-a-wooden-table-topped-with-plates-of-food-w8cM5oUVyHk",
+            image:"https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
             tags : ["Typescript","React native","mysql","Prisma"],
             link:"https://github.com/Thisura2001/Recipe_app_native.git",
             category:"mobile"
@@ -52,7 +52,7 @@ export const Projects = ()=>{
                 " Prisma ORM and Express.js, ensuring efficient database management and\n" +
                 " seamless API integration. Implemented authentication, state management, and\n" +
                 " RESTful APIs to enhance functionality.",
-            image:"https://images.unsplash.com/a-stack-of-pancakes-with-blueberries-and-syrup-g4jSyttFc08",
+            image:"https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
             tags :  ["Typescript","React native","mysql","Prisma"],
             link:" https://github.com/Thisura2001/thogakade_frontend.git",
             category:"mobile"
@@ -147,12 +147,8 @@ export const Projects = ()=>{
                                     src={project.image}
                                     alt={project.title}
                                     className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
-                                    onError={(e) => {
-                                        e.currentTarget.src = 'path/to/fallback/image.jpg';
-                                    }}
                                 />
-                                <div
-                                    className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"/>
+                                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
                             </div>
                             <div className="p-6">
                                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
