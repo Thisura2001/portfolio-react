@@ -82,7 +82,7 @@ export const NavBar = ({ darkMode, setDarkMode }: NavBarProps) => {
                 });
               }}
           >
-            THISURA
+            T_V_L
           </a>
           <div className="flex items-center space-x-8">
             <div className="hidden md:flex space-x-8">

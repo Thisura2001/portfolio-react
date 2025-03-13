@@ -1,5 +1,5 @@
 import profileImage from '../assets/1741101565563.jpeg';
-import resume from "../assets/thisura(cv).pdf";
+import resume from "../assets/thisura_cv.pdf";
 export const Hero = () => {
   return (
     <section id={"home"} className="w-full bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 pt-24 pb-16">
