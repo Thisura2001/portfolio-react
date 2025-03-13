@@ -32,7 +32,7 @@ export const Projects = () => {
             description:
                 "This is an advanced, web-based platform designed to manage and monitor agricultural activities efficiently.",
             image:
-                "https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+                "https://images.unsplash.com/photo-1527847263472-aa5338d178b8?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             tags: ["JavaScript", "Spring Boot", "MySQL", "Hibernate"],
             link: "https://github.com/Thisura2001/Crop-monitoring-system-frontend.git",
             category: "web",
@@ -43,7 +43,7 @@ export const Projects = () => {
             description:
                 "A mobile application using React Native with Native Paper, backend using Prisma ORM and Express.js.",
             image:
-                "https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+                "https://plus.unsplash.com/premium_photo-1670895801174-8278045808f4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             tags: ["TypeScript", "React Native", "MySQL", "Prisma"],
             link: "https://github.com/Thisura2001/Recipe_app_native.git",
             category: "mobile",
@@ -54,7 +54,7 @@ export const Projects = () => {
             description:
                 "A mobile application using React Native with Native Paper, backend using Prisma ORM and Express.js.",
             image:
-                "https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+                "https://images.unsplash.com/photo-1556740714-a8395b3bf30f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             tags: ["TypeScript", "React Native", "MySQL", "Prisma"],
             link: "https://github.com/Thisura2001/thogakade_frontend.git",
             category: "mobile",
@@ -65,7 +65,7 @@ export const Projects = () => {
             description:
                 "A software solution designed to streamline garment business operations, including staff and employee management.",
             image:
-                "https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+                "https://images.unsplash.com/photo-1493455198445-863243d88564?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             tags: ["Java", "MySQL", "Hibernate"],
             link: "https://github.com/Thisura2001/garment-management-system-Final-Project-.git",
             category: "desktop",
@@ -76,7 +76,7 @@ export const Projects = () => {
             description:
                 "A real-time chat application built using Java, enabling seamless group chat, emoji support, and image sharing.",
             image:
-                "https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+                "https://plus.unsplash.com/premium_photo-1721955487745-a2c3aea86d1c?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             tags: ["Java", "MySQL", "Hibernate"],
             link: "https://github.com/Thisura2001/chat-application-course-work.git",
             category: "desktop",
@@ -87,7 +87,7 @@ export const Projects = () => {
             description:
                 "A Library Management System (LMS) designed to manage and streamline library operations.",
             image:
-                "https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+                "https://plus.unsplash.com/premium_photo-1661962617265-b88538dc15e4?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             tags: ["Java", "MySQL", "Hibernate"],
             link: "https://github.com/Thisura2001/book-worm-library-management-system.git",
             category: "desktop",
@@ -98,7 +98,7 @@ export const Projects = () => {
             description:
                 "This is an advanced, web-based platform designed to manage and monitor sales activities efficiently.",
             image:
-                "https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+                "https://images.unsplash.com/photo-1602665478334-f8c4fd62ede4?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             tags: ["Java", "MySQL", "Hibernate", "JavaScript"],
             link: "https://github.com/Thisura2001/pos-frontEnd.git",
             category: "web",
