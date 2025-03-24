@@ -103,6 +103,17 @@ export const Projects = () => {
             link: "https://github.com/Thisura2001/pos-frontEnd.git",
             category: "web",
         },
+        {
+            id: 9,
+            title: "Recipe Finder",
+            description:
+                "This is an intuitive, web-based platform designed to help users discover, save, and manage their favorite recipes effortlessly.",
+            image:
+                "https://plus.unsplash.com/premium_photo-1663858367001-89e5c92d1e0e?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            tags: ["React", "Redux", "MongoDb", "Typescript","Express js"],
+            link: "https://github.com/Thisura2001/recipe-mern-frontend.git",
+            category: "web",
+        },
     ];
 
     const filteredProjects = projects.filter((project) => project.category === activeCategory);
