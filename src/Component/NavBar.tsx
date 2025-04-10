@@ -1,10 +1,10 @@
 import { useEffect, useState, useRef } from 'react'
-import { Menu, X, Moon, Sun } from 'lucide-react'
-interface NavBarProps {
-  darkMode: boolean
-  setDarkMode: (value: boolean) => void
-}
-export const NavBar = ({ darkMode, setDarkMode }: NavBarProps) => {
+import {Menu, X} from "lucide-react";
+// interface NavBarProps {
+//   darkMode: boolean
+//   setDarkMode: (value: boolean) => void
+// }
+export const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const mobileMenuRef = useRef<HTMLDivElement>(null)
@@ -117,13 +117,13 @@ export const NavBar = ({ darkMode, setDarkMode }: NavBarProps) => {
                 Contact
               </button>
             </div>
-            <button
-                onClick={() => setDarkMode(!darkMode)}
-                className="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
-                aria-label="Toggle dark mode"
-            >
-              {darkMode ? <Sun size={20} /> : <Moon size={20} />}
-            </button>
+            {/*<button*/}
+            {/*    onClick={() => setDarkMode(!darkMode)}*/}
+            {/*    className="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"*/}
+            {/*    aria-label="Toggle dark mode"*/}
+            {/*>*/}
+            {/*  {darkMode ? <Sun size={20} /> : <Moon size={20} />}*/}
+            {/*</button>*/}
             <button
                 ref={buttonRef}
                 className="md:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
